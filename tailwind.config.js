@@ -12,6 +12,8 @@ module.exports = {
     extend: {
       colors: {
         ipxRed: '#F61354',
+        ipxBlue: '#3E67FF',
+        ipxPink: '#E47298',
       },
     },
   },

@@ -1,6 +1,6 @@
 import Banner from './Banner';
-import { ReactComponent as IpxLogo } from '../../icons/ipxLogo.svg';
-import { ReactComponent as AccountIcon } from '../../icons/account.svg';
+import { ReactComponent as IpxLogo } from '../../assets/icons/ipxLogo.svg';
+import { ReactComponent as AccountIcon } from '../../assets/icons/account.svg';
 
 function Navbar() {
   return (
