@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div>
       <Banner>Please link your metamask wallet</Banner>
-      <div className="flex justify-between pl-[99px] pr-[118px] mt-[69px]">
+      <div className="flex justify-between pl-[99px] pr-[86px] mt-[69px] mb-[61px]">
         <IpxLogo width="50px" />
         <AccountIcon width="50px" />
       </div>
