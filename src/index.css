@@ -26,3 +26,7 @@
   font-family: "Zuume700";
   src: url("./fonts/Zuume\ Bold.ttf");
 }
+
+html {
+  @apply text-white;
+}

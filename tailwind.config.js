@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         ipxRed: '#F61354',
       },
+      spacing: {
+        ipxEdge: '93px',
+      },
     },
   },
   plugins: [],
