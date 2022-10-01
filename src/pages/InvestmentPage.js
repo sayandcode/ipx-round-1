@@ -9,11 +9,10 @@ import InvestmentPageContextProvider from '../utils/Contexts/InvestmentPageConte
 Since the figma screen previous to the investment details screen is labelled "Project Details", 
 we assume that the "Investment Details" data is contained in nftDetails (since an nft is commonly
 seen as a type of investment) */
-const investmentData = DATA.nftDetails;
 
 function InvestmentPage() {
   return (
-    <InvestmentPageContextProvider pageData={investmentData}>
+    <InvestmentPageContextProvider pageData={DATA}>
       <InvestmentOverView />
       <MoreInfo />
     </InvestmentPageContextProvider>

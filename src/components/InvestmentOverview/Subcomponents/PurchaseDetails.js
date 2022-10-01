@@ -1,4 +1,5 @@
-import { useContext } from 'react';
+import { useContext, useMemo } from 'react';
+import { format } from 'date-fns';
 import { InvestmentPageContext } from '../../../utils/Contexts/InvestmentPageContext';
 import Box from '../../Box';
 import paypalImg from '../../../assets/imgs/PaypalLogo.png';
@@ -8,19 +9,32 @@ import PaymentOption from './PaymentOption';
 
 function PurchaseDetails() {
   const { pageData } = useContext(InvestmentPageContext);
+  const nftData = pageData.projectIndividualNfts[1];
+  const expiryDate = nftData.nftAuction.expiry;
+  const formattedExpiryDate = useMemo(
+    () =>
+      `${format(new Date(expiryDate), 'do MMMM, y ')} at ${format(
+        new Date(expiryDate),
+        'h:ma, O'
+      )}`,
+    [pageData]
+  );
   return (
     <Box
       title={
         <div className="font-visby-500 text-[18px] leading-[12px] tracking-[1px]">
-          Sale ends on 20 june, 2022 at 10:30pm, GMT +5:30
+          Sale ends on <span>{formattedExpiryDate}</span>
         </div>
       }
       className="mt-auto"
     >
       <div className="grid grid-cols-2 mb-[59px]">
         {[
-          { heading: 'current price', value: `$${pageData.price}` },
-          { heading: 'units available', value: pageData.qty },
+          {
+            heading: 'current price',
+            value: `$${nftData.nftAuction.lastBidPrice}`,
+          },
+          { heading: 'units available', value: nftData.qty },
         ].map(({ heading, value }) => (
           <div key={heading}>
             <GreyText>{heading}</GreyText>
