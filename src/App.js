@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Navbar from './components/nav/Navbar';
 import InvestmentPage from './pages/InvestmentPage';
 
@@ -9,6 +10,7 @@ function App() {
         {/* we could put a router here */}
         <InvestmentPage />
       </div>
+      <Footer />
     </div>
   );
 }
