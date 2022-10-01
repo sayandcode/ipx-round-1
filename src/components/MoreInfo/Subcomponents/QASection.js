@@ -1,3 +1,4 @@
+import { Fragment as ReactFragment } from 'react';
 import Box from '../../Box';
 import Accordion from './Accordion';
 
@@ -16,13 +17,13 @@ function QASection({ img, data, className }) {
         )}
         <div>
           {data.questions.map(({ q, a }, i, arr) => (
-            <>
-              {/* eslint-disable-next-line react/no-array-index-key */}
-              <Accordion title={q} content={a} key={i} />
+            // eslint-disable-next-line react/no-array-index-key
+            <ReactFragment key={i}>
+              <Accordion title={q} content={a} />
               {i !== arr.length - 1 && (
                 <div className="border-b-[1px] border-white/50 mt-[40px] mb-[40px]" />
               )}
-            </>
+            </ReactFragment>
           ))}
         </div>
       </div>

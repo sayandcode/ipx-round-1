@@ -4,27 +4,32 @@
 
 @font-face {
   font-family: "VisbyCF400";
-  src: url("./fonts/Fontspring-DEMO-visbycf-regular.otf");
+  src: url("./assets/fonts/Fontspring-DEMO-visbycf-regular.otf");
 }
 
 @font-face {
   font-family: "VisbyCF500";
-  src: url("./fonts/Fontspring-DEMO-visbycf-medium.otf");
+  src: url("./assets/fonts/Fontspring-DEMO-visbycf-medium.otf");
 }
 
 @font-face {
   font-family: "VisbyCF600";
-  src: url("./fonts/Fontspring-DEMO-visbycf-demibold.otf");
+  src: url("./assets/fonts/Fontspring-DEMO-visbycf-demibold.otf");
 }
 
 @font-face {
   font-family: "VisbyCF700";
-  src: url("./fonts/Fontspring-DEMO-visbycf-bold.otf");
+  src: url("./assets/fonts/Fontspring-DEMO-visbycf-bold.otf");
+}
+
+@font-face {
+  font-family: "VisbyCF800";
+  src: url("./assets/fonts/Fontspring-DEMO-visbycf-extrabold.otf");
 }
 
 @font-face {
   font-family: "Zuume700";
-  src: url("./fonts/Zuume\ Bold.ttf");
+  src: url("./assets/fonts/Zuume\ Bold.ttf");
 }
 
 html {

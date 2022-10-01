@@ -7,6 +7,7 @@ module.exports = {
       'visby-500': ['VisbyCF500', 'sans-serif'],
       'visby-600': ['VisbyCF600', 'sans-serif'],
       'visby-700': ['VisbyCF700', 'sans-serif'],
+      'visby-800': ['VisbyCF800', 'sans-serif'],
       'zuume-700': ['Zuume700', 'sans-serif'],
     },
     extend: {

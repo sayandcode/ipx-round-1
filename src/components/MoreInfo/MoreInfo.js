@@ -5,6 +5,7 @@ import {
   termsData,
 } from './sectionsFillerData';
 import QASection from './Subcomponents/QASection';
+import SocialLinksBox from './Subcomponents/SocialLinksBox';
 
 function MoreInfo() {
   return (
@@ -13,6 +14,7 @@ function MoreInfo() {
       <QASection data={termsData} />
       <QASection data={risksData} />
       <QASection img="nil" data={howToBuyData} />
+      <SocialLinksBox />
     </>
   );
 }
