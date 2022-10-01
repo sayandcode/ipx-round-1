@@ -30,3 +30,7 @@
 html {
   @apply text-white;
 }
+
+body{
+  @apply bg-black;
+}

@@ -3,7 +3,7 @@ import InvestmentPage from './pages/InvestmentPage';
 
 function App() {
   return (
-    <div className="bg-black">
+    <div>
       <Navbar />
       <div className="pr-[148px] pl-[93px]">
         {/* we could put a router here */}
