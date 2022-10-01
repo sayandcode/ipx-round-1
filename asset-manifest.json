@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ipx-round-1/static/css/main.5996c3fc.css",
+    "main.js": "/ipx-round-1/static/js/main.fc0b7801.js",
+    "static/media/ipxLogo.svg": "/ipx-round-1/static/media/ipxLogo.3d7f1fe4d714af5d9c8e64b3b0a75d3d.svg",
+    "static/media/Zuume Bold.ttf": "/ipx-round-1/static/media/Zuume Bold.0beabb1bdea9d8583cbf.ttf",
+    "static/media/Fontspring-DEMO-visbycf-extrabold.otf": "/ipx-round-1/static/media/Fontspring-DEMO-visbycf-extrabold.2093a0ec179013651f00.otf",
+    "static/media/Fontspring-DEMO-visbycf-demibold.otf": "/ipx-round-1/static/media/Fontspring-DEMO-visbycf-demibold.03e76f39c496ebc8efff.otf",
+    "static/media/Fontspring-DEMO-visbycf-bold.otf": "/ipx-round-1/static/media/Fontspring-DEMO-visbycf-bold.91d40a6910824d173063.otf",
+    "static/media/Fontspring-DEMO-visbycf-medium.otf": "/ipx-round-1/static/media/Fontspring-DEMO-visbycf-medium.d820b3de1ec87c1fdaaf.otf",
+    "static/media/Fontspring-DEMO-visbycf-regular.otf": "/ipx-round-1/static/media/Fontspring-DEMO-visbycf-regular.0fe165f5d07a8f96a609.otf",
+    "static/media/BookArt.svg": "/ipx-round-1/static/media/BookArt.906d6464a938cfb298701893577d01ff.svg",
+    "static/media/facebook.svg": "/ipx-round-1/static/media/facebook.596f050e3b4497b97116198ca3bcf9d0.svg",
+    "static/media/instagram.svg": "/ipx-round-1/static/media/instagram.66b90153ac8a5b8cf6ee117e8175f97a.svg",
+    "static/media/discord.svg": "/ipx-round-1/static/media/discord.025ceccbe5a5dcde3b135ef3792dad1f.svg",
+    "static/media/twitter.svg": "/ipx-round-1/static/media/twitter.7fabe1e84d4927db01e751073272debb.svg",
+    "static/media/account.svg": "/ipx-round-1/static/media/account.7cee4c6578952c8a883e4f054e6bc563.svg",
+    "index.html": "/ipx-round-1/index.html",
+    "static/media/arrow.svg": "/ipx-round-1/static/media/arrow.38968b3ee6d1e3a754dd477532b4a618.svg",
+    "static/media/chevron.svg": "/ipx-round-1/static/media/chevron.f8d97958ebdae7b7feb19333c1eabb62.svg",
+    "static/media/plus.svg": "/ipx-round-1/static/media/plus.b91438ec8dd8a0e4d8420a4babf85b17.svg",
+    "static/media/minus.svg": "/ipx-round-1/static/media/minus.137a9068896e02f3392963c65376c4bb.svg",
+    "main.5996c3fc.css.map": "/ipx-round-1/static/css/main.5996c3fc.css.map",
+    "main.fc0b7801.js.map": "/ipx-round-1/static/js/main.fc0b7801.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5996c3fc.css",
+    "static/js/main.fc0b7801.js"
+  ]
+}
