@@ -1,4 +1,3 @@
-import { createElement } from 'react';
 import Box from '../../Box';
 import { ReactComponent as FacebookIcon } from '../../../assets/icons/socials/facebook.svg';
 import { ReactComponent as DiscordIcon } from '../../../assets/icons/socials/discord.svg';

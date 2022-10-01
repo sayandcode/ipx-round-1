@@ -1,6 +1,6 @@
 import Button from '../../../../Button';
 
-function CarouselItem({ data, className }) {
+function CarouselItem({ data }) {
   return (
     <div className="bg-[#121212] rounded-[16.6285px] p-[14.55px] w-[286.92px]">
       <img alt="" src={data.imgUrl} className="w-[100%]" />
@@ -10,7 +10,7 @@ function CarouselItem({ data, className }) {
           src={data.ownerImgUrl}
           className="h-[33.26px] aspect-square"
         />
-        <div className="">
+        <div>
           <div className="font-visby-600 text-[12.47px] leading-[19px]">
             {data.title}
           </div>
